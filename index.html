@@ -4,87 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Mahak Patel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Open Sans', sans-serif;
-        }
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #F5F5F5;
-            padding: 20px;
-        }
-        .container {
-            background: white;
-            padding: 50px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-            text-align: center;
-            max-width: 800px;
-            width: 90%;
-        }
-        h1 {
-            color: #1A73E8;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 700;
-            font-size: 32px;
-        }
-        h2 {
-            color: #34A853;
-            margin-top: 15px;
-            font-weight: 600;
-            font-size: 24px;
-        }
-        p {
-            color: #5F6368;
-            margin-top: 15px;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 25px;
-        }
-        .social-icons a {
-            transition: transform 0.3s ease-in-out;
-        }
-        .social-icons a:hover {
-            transform: scale(1.1);
-        }
-        .social-icons img {
-            width: 45px;
-            height: 45px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Mahak Patel</h1>
-        <p>Hey there! I’m a UX Engineer & Designer based in Toronto, Canada, with a passion for creating intuitive and engaging digital experiences. I specialize in blending user-centered design with front-end development, ensuring both creativity and technology come together seamlessly.</p>
+        <!-- Profile Section -->
+        <section class="profile-section">
+            <h1>Mahak Patel</h1>
+            <p>Hey there! I’m a UX Engineer & Designer based in Toronto, Canada, with a passion for creating intuitive and engaging digital experiences. I specialize in blending user-centered design with front-end development, ensuring both creativity and technology come together seamlessly.</p>
+        </section>
         
-        <h2>Education</h2>
-        <p>Completed postgraduation in User Experience Design at Humber College. Currently studying Web Development at Humber College to expand my technical expertise.</p>
+        <!-- Education Section -->
+        <section class="education-section">
+            <h2>Education</h2>
+            <p>Completed postgraduation in User Experience Design at Humber College. Currently studying Web Development at Humber College to expand my technical expertise.</p>
+            <hr class="separator">
+        </section>
         
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/mahak-patel-167640150/" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-            </a>
-            <a href="https://github.com/Oyemahak" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
-            </a>
-            <a href="https://www.instagram.com/oyemahak/" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
-            </a>
-        </div>
+        <!-- Social Media Section -->
+        <section class="social-section">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mahak-patel-167640150/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Oyemahak" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/oyemahak/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+                </a>
+            </div>
+        </section>
     </div>
 </body>
 </html>
